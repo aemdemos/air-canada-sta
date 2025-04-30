@@ -295,7 +295,7 @@ jobs:
         with:
           callbacks: ${{ github.event.inputs.aemy_callbacks }}
           context: ${{ github.event.inputs.aemy_context }}
-          message: Upload succeeded. Uploaded ${{ env.UPLOAD_SUCCESSES }} files.
+          message: SharePoint upload succeeded. Uploaded ${{ env.UPLOAD_SUCCESSES }} files.
           status_type: ok
           agent_name: upload-import-sp
 
