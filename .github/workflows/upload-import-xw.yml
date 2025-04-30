@@ -169,7 +169,7 @@ jobs:
         with:
           callbacks: ${{ github.event.inputs.aemy_callbacks }}
           context: ${{ github.event.inputs.aemy_context }}
-          message: Upload succeeded.
+          message: XWalk upload succeeded.
           status_type: ok
           agent_name: upload-import-xw
 
